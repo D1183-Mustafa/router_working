@@ -1,0 +1,16 @@
+.about {
+    height: 78vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon {
+    transform: scale(5);
+    color: black;
+    transition: all 0.7s;
+}
+.icon:hover {
+    transform: scale(6);
+    color: orange;
+}

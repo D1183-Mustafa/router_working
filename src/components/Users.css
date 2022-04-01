@@ -1,0 +1,26 @@
+.users {
+    height: 78vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ull {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.users-link {
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.users-link:hover {
+    color: rgb(246, 6, 6);
+    font-size: 1.2rem;
+}

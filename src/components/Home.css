@@ -1,0 +1,29 @@
+
+.home-img {
+  height: 500px;
+  background-image: url("../assets/1591250715479.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+.home-title {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 3rem 2rem;
+    text-align: center;
+    gap: 1rem;
+}
+.home-title-info {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+.home-title-info p {
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
